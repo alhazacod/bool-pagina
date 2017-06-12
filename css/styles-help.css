@@ -1,0 +1,59 @@
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  background-color: #4a235a;
+  margin-right: 10px;
+  margin-bottom: 0;
+
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+
+}
+    header nav ul{
+      margin: 0 auto;
+      list-style: none;
+      overflow: hidden;
+    }
+        header nav ul li{
+          background-color:  #4a235a;
+          float: right;
+          margin: 0 auto;
+        }
+            header nav ul li a{
+              display: block;
+              padding: 10px;
+              font-size: 15px;
+              color: white;
+              text-decoration: none;
+            }
+                header nav ul li a:hover{
+                  color: white;
+                  background-color:   #633974 ;
+                  text-decoration: none;
+                }
+                      .logo{
+                        float: left;
+                      }
+                          header nav ul li .logo{
+                            font-family: 'Days One', sans-serif;
+                            font-size: 20px;
+                            font: bolt;
+                            display: block;
+                            padding: 6px;
+                            color: white;
+                            text-decoration: none;
+                          }
+                          header nav ul li .logo:hover{
+                            color: white;
+                          }
+                  .sub-menu{
+                    margin-left: -23px;
+                    position: absolute;
+                    display: none;
+                  }
+                  header nav ul li:hover > ul{
+                    display: block;
+                  }
