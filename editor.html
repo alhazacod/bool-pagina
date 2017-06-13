@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Summernote</title>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.4/summernote.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.4/summernote.js"></script>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles-help.css">
+  <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="logo"><a href="#" class="logo">BOOL</a></li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="">Juegos</a>
+          <ul class="sub-menu">
+            <li><a href="project-help.html">Help</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="" style="margin: 100px;">
+    <div id="summernote"><p>Hello Summernote</p></div>
+  </div>
+  <script>
+    $(document).ready(function() {
+        $('#summernote').summernote({
+          height: 400
+        });
+    });
+  </script>
+</body>
+</html>
